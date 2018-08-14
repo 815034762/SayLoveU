@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_bg"
+    android:orientation="vertical"
+    android:gravity="bottom"
+    tools:context=".iloveyou.SplashActivity">
+
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:minHeight="45dp"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:hint="请输入您的手机号码,来聆听TA对你说的话"
+        android:inputType="phone"
+        android:background="@color/black_translucent"
+        android:layout_gravity="bottom"
+        />
+
+    <Button
+        android:id="@+id/btn_ok"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="wrap_content"
+        android:minHeight="45dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/white_corner"
+        android:text="我已填写好啦"
+        />
+
+</LinearLayout>
